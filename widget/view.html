@@ -1,0 +1,13 @@
+<!-- Copyright start
+  Copyright (C) 2008 - 2024 Fortinet Inc.
+  All rights reserved.
+  FORTINET CONFIDENTIAL & FORTINET PROPRIETARY SOURCE CODE
+  Copyright end -->
+<link rel="stylesheet" href="widgets/installed/cyberThreatWorldMap-1.0.0/widgetAssets/css/styles.css">
+<div class="padding-right-0 padding-left-0 widget-dashboard-title-width"
+  data-ng-class="(page === 'dashboard' || page === 'reporting') ? 'widget-dashboard-title-width' : 'widget-title-width'">
+  <h5 data-ng-if="config.title !==''" class="padding-left-lg margin-top-0 margin-bottom-0  text-overflow">
+    {{config.title}}</h5>
+</div>
+<div class="widget widget-container chart display-flex align-items-center justify-content" style="width: 100%; height:100%" id="world-map-{{config.wid}}">
+</div>
